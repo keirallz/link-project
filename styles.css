@@ -1,0 +1,56 @@
+/* General layout */
+body {
+  font-family: 'Helvetica Neue', sans-serif;
+  background-color: #fdf6e3;
+  color: #333;
+  margin: 40px;
+  line-height: 1.6;
+}
+
+/* Headings */
+h1, h2 {
+  font-family: 'Futura', sans-serif;
+  color: #2e2e2e;
+}
+
+/* Links */
+a:link {
+  color: #0077cc;
+}
+
+a:visited {
+  color: #800080;
+}
+
+a:hover {
+  color: #ff6600;
+}
+
+ul li a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+/* Animal-specific styles using IDs */
+#furseal {
+  color: #0b5394;
+  font-family: 'Courier New', monospace;
+}
+
+#giraffe {
+  color: #e69138;
+  font-family: 'Georgia', serif;
+}
+
+#monkey {
+  color: #38761d;
+  font-family: 'Comic Sans MS', cursive;
+}
+
+/* Override sea otter heading style */
+h1 {
+  color: #cc0000;
+  font-family: 'Gill Sans', sans-serif;
+}
+
+/* Comment: Mid-century-modern uses soft tones and clean geometric fonts */
